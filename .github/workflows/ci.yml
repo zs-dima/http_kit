@@ -30,8 +30,8 @@ concurrency:
 
 jobs:
   ci:
-    # One recipe for every package repository, pinned to a tag (zs-dima/.github).
-    uses: zs-dima/.github/.github/workflows/flutter-package.yml@v1
+    # One recipe for every package repository, pinned to a tag (zs-dima/lints_tool).
+    uses: zs-dima/lints_tool/.github/workflows/flutter-package.yml@v1
     with:
       flutter-version: "3.47.2"
       publish-check: false

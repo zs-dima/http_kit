@@ -3,10 +3,6 @@ description: >
   A portable HTTP client with an onion middleware pipeline: retry with full-jitter backoff, timeouts,
   bearer authentication and metadata headers, on Cronet, Cupertino or the browser stack.
 
-# Until core_model is on pub.dev this package is consumed by git tag; pub.dev rejects git
-# dependencies.
-publish_to: none
-
 version: 0.1.0
 
 homepage: https://github.com/zs-dima/http_kit
@@ -33,10 +29,7 @@ environment:
   flutter: ">=3.47.2"
 
 dependencies:
-  core_model:
-    git:
-      url: https://github.com/zs-dima/core_model.git
-      ref: v0.1.0
+  core_model: ^0.1.0
 
   # `compute` and `kDebugMode`.
   flutter:
@@ -52,7 +45,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  lints_tool:
-    git:
-      url: https://github.com/zs-dima/lints_tool.git
-      ref: v1.0.1
+  lints_tool: ^1.0.1

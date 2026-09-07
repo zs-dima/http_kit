@@ -78,7 +78,8 @@ pinning only the `dart:io` fallback would leave the engines mobile actually uses
 
 ## Credits
 
-Based on code from https://github.com/orgs/DoctorinaAI/repositories.
+Thanks to Mikhail Matiunin (Plague Fox) and the AI Doctor for interfaces and code shared with [`DoctorinaAI`](https://github.com/orgs/DoctorinaAI/repositories)
+DoctorinaAI repositories is MIT, Copyright (c) 2025 Doctorina – the AI Doctor; the code carried over keeps that notice where it sits. 
 
 ## Changelog
 
